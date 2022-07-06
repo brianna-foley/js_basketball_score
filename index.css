@@ -19,6 +19,8 @@ body {
   background: none;
   border: 2px solid #9AABD8;
   border-radius: 5px;
+  width: 45px;
+  height: 45px;
 }
 
 #header {
@@ -32,7 +34,19 @@ body {
 }
 
 #score {
+  margin: 25px 0px;
   background: #080001;
   color: #F94F6D;
   font-family: 'cursedTimer';
+  font-size: 90px;
+  width: 155px;
+  height: 120px;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 127px;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: space-between;
 }
