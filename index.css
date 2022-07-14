@@ -33,7 +33,7 @@ body {
   color: #EEEEEE;
 }
 
-#score {
+.score {
   margin: 25px 0px;
   background: #080001;
   color: #F94F6D;
